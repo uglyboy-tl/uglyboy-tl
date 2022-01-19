@@ -17,6 +17,8 @@ Here are some ideas to get you started:
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=uglyboy-tl.uglyboy-tl&left_color=green&right_color=red)
 
+[![uglyboy-tl's GitHub stats](https://github-readme-stats.vercel.app/api?username=uglyboy-tl&show_icons=true&theme=merko&locale=cn)](https://github.com/uglyboy-tl)
+
 <!--START_SECTION:waka-->
 ```text
 Week: 12 January, 2022 - 18 January, 2022
