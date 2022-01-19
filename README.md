@@ -15,6 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=uglyboy-tl.uglyboy-tl&left_color=green&right_color=red)
+
 <!--START_SECTION:waka-->
 ```text
 Week: 12 January, 2022 - 18 January, 2022
