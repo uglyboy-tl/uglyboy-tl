@@ -16,4 +16,11 @@ Here are some ideas to get you started:
 -->
 
 <!--START_SECTION:waka-->
+```text
+YAML    2 hrs 54 mins   ████████████░░░░░░░░░░░░░   47.96 % 
+Other   1 hr 19 mins    █████▒░░░░░░░░░░░░░░░░░░░   21.85 % 
+Bash    50 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.81 % 
+TOML    33 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.12 % 
+VimL    12 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.38 % 
+```
 <!--END_SECTION:waka-->
