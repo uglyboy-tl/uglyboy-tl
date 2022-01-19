@@ -19,4 +19,4 @@ VimL    12 mins         ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 <!--END_SECTION:waka-->
 
 [拾柒读库 | 记录我的生活、想法和一切](https://blog.uglyboy.cn)
-![alt text](https://pagespeed-insights.herokuapp.com?url=https://blog.uglyboy.cn&theme=dark "我的博客网站性能")
+![我的博客网站性能](https://pagespeed-insights.herokuapp.com?url=https://blog.uglyboy.cn&theme=dark)
