@@ -9,9 +9,9 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 16 June 2022 - To: 23 June 2022
+From: 17 June 2022 - To: 24 June 2022
 
-Bash   0 secs          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 %
+Other     0 secs          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   59.73 %
 ```
 
 <!--END_SECTION:waka-->
