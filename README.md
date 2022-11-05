@@ -9,7 +9,9 @@
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+From: 28 October 2022 - To: 04 November 2022
+
+Markdown   8 mins          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 %
 ```
 
 <!--END_SECTION:waka-->
