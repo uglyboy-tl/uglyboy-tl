@@ -68,6 +68,8 @@ def write_markdown(lang, results):
             description=result['description'])
     date = datetime.now().strftime("%Y-%m-%d")
     file_path = Path(f"./trending/{date}.md")
+    file_path.parent.mkdir(parents=True, exist_ok=True)
+    file_path.touch(exist_ok=True)
     with file_path.open('a', encoding='utf-8') as f:
             f.write(content)
 
