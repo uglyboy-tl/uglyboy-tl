@@ -60,7 +60,7 @@ def scrape_lang(language: str) -> Dict[str, Dict[str, Union[str, None]]]:
 
 def write_markdown(lang, results):
     if lang == '':
-        content = '## All language\n\n'
+        content = '## All Languages\n\n'
     else:
         content = '## ' + lang.capitalize() + '\n\n'
     for result in results.values():
