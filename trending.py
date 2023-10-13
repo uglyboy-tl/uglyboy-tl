@@ -19,6 +19,7 @@ HEADERS = {
 
 session = requests.Session()
 
+MAX_FILES = 10
 
 def scrape_url(url: str) -> Dict[str, Dict[str, Union[str, None]]]:
     logger.info(f"Scraping URL: {url}")
@@ -73,8 +74,21 @@ def write_markdown(lang, results):
     with file_path.open('a', encoding='utf-8') as f:
             f.write(content)
 
+def delete_old_files():
+    date_format = "%Y-%m-%d"
+    file_path = Path("./trending/")
+
+    # 获取所有 .md 文件，并根据日期排序
+    files = sorted(file_path.glob('*.md'), key=lambda f: datetime.strptime(f.stem, date_format), reverse=True)
+
+    # 如果文件数量超过 10，删除最老的文件
+    if len(files) > MAX_FILES:
+        for file in files[MAX_FILES:]:
+            file.unlink()
+
 if __name__ == '__main__':
     languages = ['', 'python', 'javascript', 'typeScript', 'go', 'rust', 'c++', 'c', 'html', 'css', 'unknown']
     for lang in languages:
         results = scrape_lang(lang)
         write_markdown(lang, results)
+        delete_old_files()
